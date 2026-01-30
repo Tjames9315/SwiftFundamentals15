@@ -11,6 +11,9 @@ let targetLowerBound = 120
 let targetUpperBound = 150
 let currentHR = 147
 
+let isInTarget = currentHR >= targetLowerBound && currentHR <= targetUpperBound
+let isBelowTarget = currentHR < targetLowerBound
+let isAboveTarget = currentHR > targetUpperBound
 /*:
 [Previous](@previous)  |  page 5 of 9  |  [Next: Exercise - Switch Statements](@next)
  */
