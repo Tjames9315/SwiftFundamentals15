@@ -1,0 +1,9 @@
+! A UIView object is mainly responsible for showing content on the screen, responding to user actions like touches, and organizing other views that are place inside it.
+
+2. When one view is placed inside another view, the embedded view is called a subview.
+
+3. The view that holds or contains another view is called the superview.
+
+4. A view's frame describe its internal size and coordinate space, while the frame describes the view's size and position relative to its superview.
+
+5. A views bounds describe its internal size and coordinate space, while the frame describes the views size and position relative to its superview.
